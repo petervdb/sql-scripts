@@ -20,7 +20,7 @@ SET @FinalDate = CAST(@Year + @Month + @Day AS INT)
 SELECT j.[name],
 s.step_name,
 h.step_id,
-h.step_name,
+h.step_name as step_name2,
 h.run_date,
 h.run_time,
 h.sql_severity,
